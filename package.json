@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sinkhive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sink HTML/Markdown hive fragments safely for docs pipelines.",
+  "bin": {
+    "sinkhive": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sinkhive.git"
+  },
+  "homepage": "https://theworker02.github.io/sinkhive/",
+  "keywords": [
+    "sink",
+    "hive",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
